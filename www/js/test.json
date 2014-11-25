@@ -1,0 +1,54 @@
+var jsonObject = {
+"tool": {
+    
+    "id": "001",
+    "name": "Tool 1",
+    "quality": "high",
+    "description": "This is the first tool"
+},
+"tool_2": {
+    "id" : "002",
+    "name": "Tool 2",
+    "quality": "low",
+    "description": "This is the second tool"
+
+},
+"tool_3":{
+  "id" : "003",
+    "name": "Tool 3",
+    "quality": "low",
+    "description": "This is the third tool"
+},
+"records": [ 
+        { "number": "001", 
+          "name": "Jill", 
+          "date": "2014. January 01." }, 
+        { "number": "002", 
+          "name": "John", 
+          "date": "2014. March 03." } 
+    ] 
+
+}
+
+
+"start": {
+    
+    "title": "Bioinformatics tools library",
+    "tool_1": [
+        {
+             "txt": "001"
+        },
+        {
+            "name": "Tool 1"
+        },
+        {
+            "quality": "high"
+        },
+        {
+            "description": "This is the first tool"
+        },
+        {
+            "txt": "CrossFunctional"
+        }
+    ]
+},
